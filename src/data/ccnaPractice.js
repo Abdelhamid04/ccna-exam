@@ -472,7 +472,7 @@ const basePracticeQuestions = [
   type: "single",
   category: "VLSM",
   prompt:
-    "26. Un administrateur réseau souhaite avoir le même masque de sous-réseau pour tous les réseaux d’un petit site. Le site a les réseaux et numéros de périphérique suivants : Téléphones IP – 22 adresses, PC – 20 adresses, Imprimantes – 2 adresses, Scanners – 2 adresses. Quel masque de sous-réseau permettrait d’utiliser de manière optimale les adresses disponibles pour les quatre sous-réseaux ?",
+    "26. Un administrateur réseau souhaite avoir le même masque de sous-réseau pour tous les réseaux d’un petit site. Le site a les réseaux et numéros de périphérique suivants : Téléphones IP – 22 adresses, PC – 20 adresses, Imprimantes – 2 adresses, Scanners – 2 adresses.L’administrateur réseau juge que 192.168.10.0/24 doit être le réseau utilisé sur ce site. Quel masque de sous-réseau permettrait d’utiliser de manière optimale les adresses disponibles pour les quatre sous-réseaux ?",
   choices: [
     "255.255.255.224",
     "255.255.255.252",
