@@ -3,10 +3,17 @@ import "./App.css";
 import { ccnaPracticeQuestions } from "./data/ccnaPractice";
 
 const RANDOM_TEST_SIZE = 60;
-const normalize = (value) => String(value).trim().toLowerCase();
+const normalize = (value) =>
+  String(value)
+    .normalize("NFKC")
+    .replace(/[\u200B-\u200D\uFEFF]/g, "")
+    .trim()
+    .toLowerCase();
 const getChoiceValue = (choice) => (typeof choice === "string" ? choice : choice.value);
 const getChoiceLabel = (choice) => (typeof choice === "string" ? choice : choice.label ?? choice.value);
 const getQuestionNumber = (id) => String(id).split("-")[0];
+const hasAnswer = (answers, value) =>
+  answers.some((answer) => normalize(answer) === normalize(value));
 
 function shuffleItems(items) {
   const shuffled = [...items];
@@ -286,8 +293,9 @@ function App() {
               const choiceValue = getChoiceValue(choice);
               const choiceLabel = getChoiceLabel(choice);
               const active = selected.includes(choiceValue);
-              const correct = checked && question.answers.includes(choiceValue);
-              const wrong = checked && active && !question.answers.includes(choiceValue);
+              const isAnswer = hasAnswer(question.answers, choiceValue);
+              const correct = checked && isAnswer;
+              const wrong = checked && active && !isAnswer;
 
               return (
                 <button
