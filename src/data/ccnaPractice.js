@@ -1062,7 +1062,7 @@ const basePracticeQuestions = [
   type: "multiple",
   category: "Caractéristiques réseau",
   prompt:
-    "49. Quelles sont les trois caractéristiques du réseau décrites dans ce scénario ? (Choisissez trois réponses.)",
+    "49. Un employé d’une grande entreprise se connecte à distance à l’entreprise en utilisant le nom d’utilisateur et le mot de passe appropriés. L’employé assiste à une vidéoconférence importante avec un client concernant une grande vente. Il est important que la qualité vidéo soit excellente pendant la réunion. L’employé ne sait pas qu’après une connexion efficace, la connexion au fournisseur d’accès Internet (FAI) de l’entreprise a échoué. La connexion secondaire, cependant, s’est activée en quelques secondes. La perturbation n’a pas été remarquée par l’employé ou les autres employés. Quelles sont les trois caractéristiques du réseau décrites dans ce scénario ? (Choisissez trois réponses.)",
   choices: [
     "Intégrité",
     "Qualité de service",
@@ -1085,7 +1085,7 @@ const basePracticeQuestions = [
   type: "single",
   category: "AAA",
   prompt:
-    "50. La politique de sécurité du réseau stipule que toute personne qui se connecte au serveur se voit attribuer des droits en lecture seule au dossier Public, tandis que les droits de modification ne sont attribués qu’au groupe d’administrateurs réseau. Quel composant est repris dans la structure de services réseau AAA ?",
+    "50.Une société possède un serveur de fichiers qui partage un dossier appelé Public. La stratégie de sécurité du réseau stipule que toute personne qui se connecte au serveur se voit attribuer des droits en lecture seule au dossier Public, tandis que les droits de modification ne sont attribués qu’au groupe d’administrateurs réseau. Quel composant est repris dans la structure de services réseau AAA ?",
   choices: [
     "autorisation",
     "automatisation",
@@ -1317,7 +1317,7 @@ const basePracticeQuestions = [
   type: "single",
   category: "Cybersécurité",
   prompt:
-    "62. Un employé mécontent utilise des outils de réseau sans fil gratuits pour déterminer des informations sur les réseaux sans fil de l’entreprise. De quel type d’attaque s’agit-il ?",
+    "62. Un employé mécontent utilise des outils de réseau sans fil gratuits pour déterminer des informations sur les réseaux sans fil de l’entreprise. Cette personne entend utiliser ces informations pour pirater le réseau sans fil. De quel type d’attaque s’agit-il?",
   choices: [
     "accès",
     "cheval de Troie",
@@ -1351,7 +1351,7 @@ const basePracticeQuestions = [
   type: "multiple",
   category: "VLSM",
   prompt:
-    "64. Examinez l’illustration. Quelles deux adresses réseau peuvent être attribuées au réseau accueillant 10 hôtes ? (Choisissez deux propositions.)",
+    "64. Examinez l’illustration. Quelles deux adresses réseau peuvent être attribuées au réseau accueillant 10 hôtes ? Dans votre réponse, vous devez gaspiller le moins d’adresses possible, ne pas réutiliser des adresses déjà attribuées et rester dans la plage d’adresses 10.18.10.0/24. (Choisissez deux propositions.)",
   choices: [
     "10.18.10.224/28",
     "10.18.10.224/27",
@@ -1469,7 +1469,7 @@ answers: [
   type: "multiple",
   category: "Interférences",
   prompt:
-    "69. Quels facteurs peuvent interférer avec le câblage en cuivre et provoquer une distorsion des signaux et une corruption des données ? (Choisissez deux réponses.)",
+    "69.  Un administrateur réseau remarque qu’un câblage Ethernet nouvellement installé transporte des signaux de données déformés et altérés. Le nouveau câblage a été installé dans le plafond près des éclairages fluorescents et de l’équipement électrique. Quels facteurs peuvent interférer avec le câblage en cuivre et provoquer une distorsion des signaux et une corruption des données ? (Choisissez deux réponses.)",
   choices: [
     "EMI",
     "Interférences",
@@ -1922,7 +1922,7 @@ answers: [
   type: "single",
   category: "Sous-réseautage",
   prompt:
-    "90. Un administrateur réseau ajoute un nouveau réseau local à une filiale. Le nouveau réseau local doit prendre en charge 61 périphériques connectés. Quel est le plus petit masque réseau que l’administrateur réseau peut utiliser ?",
+    "90. Un administrateur réseau ajoute un nouveau réseau local à une filiale. Le nouveau réseau local doit prendre en charge 61 périphériques connectés. Quel est le plus petit masque réseau que l’administrateur réseau peut utiliser pour le nouveau réseau?",
   choices: [
     "255.255.255.192",
     "255.255.255.224",
@@ -1940,7 +1940,7 @@ answers: [
   type: "multiple",
   category: "Configuration réseau",
   prompt:
-    "91. Quelles sont les deux valeurs de configuration à définir sur l’hôte pour autoriser l’accès à http://www.cisco.com/ ? (Choisissez deux propositions.)",
+    "91. Quelles sont les deux valeurs de configuration à définir sur l’hôte pour autoriser l’accès à http://www.cisco.com/.Quelles sont les deux valeurs de configuration à définir sur l’hôte pour autoriser cet accès ? (Choisissez deux propositions.)",
   choices: [
     "Adresse MAC d’origine",
     "Serveur DNS",
@@ -2624,7 +2624,7 @@ answers: [
   type: "single",
   category: "Sous-réseautage",
   prompt:
-    "124. Le nouveau réseau local doit prendre en charge 10 périphériques connectés. Quel est le plus petit masque réseau que l’administrateur réseau peut utiliser ?",
+    "124. Un administrateur réseau ajoute un nouveau réseau local à une filiale. Le nouveau réseau local doit prendre en charge 10 périphériques connectés. Quel est le plus petit masque réseau que l’administrateur réseau peut utiliser ?",
   choices: [
     "255.255.255.248",
     "255.255.255.240",
@@ -2642,7 +2642,7 @@ answers: [
   type: "single",
   category: "ARP",
   prompt:
-    "125. Quel protocole était responsable de la construction de la table qui est illustrée?",
+    "125. Reportez-vous à l’illustration.  Quel protocole était responsable de la construction de la table qui est illustrée?",
   choices: [
     "DHCP",
     "ICMP",
