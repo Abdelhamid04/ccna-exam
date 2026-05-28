@@ -256,7 +256,7 @@ const basePracticeQuestions = [
     "La commande netstat -r permettent d’afficher la table de routage de l’hôte.​",
   ],
   answers: [
-    "Les interfaces connectées directement ont deux codes d’origine dans la table de routage: C et S .",
+    "Il stocke des informations sur les chemins dérivés des interfaces de routeur actives",
     "Si une route statique par défaut est configurée sur le routeur, une entrée sera incluse dans la table de routage avec le code source S .",
   ],
   explanation:
